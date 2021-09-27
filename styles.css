@@ -1,0 +1,31 @@
+/*A CSS comment:
+We comment to assist with explaining the code for collaborators or yourself in a week or more. */
+body{
+  background-color:#121212;
+  color: white;
+}
+
+h1{
+  color:#7FF100 !important;
+}
+
+p{
+  color: cyan;
+}
+
+/*Class overrides tags*/
+.under{
+  text-decoration: underline;
+  color:red;
+}
+
+/*ID takes precedence over class*/
+#yellow{
+  color:yellow;
+  font-style: italic;
+}
+
+/*later code takes precedence over earlier code */
+h1{
+  color:coral;
+}
